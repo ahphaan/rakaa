@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rakaa Cafe</title>
+        <style>
+          img{
+            border-radius: 8px;
+    width:  100px;
+    height: 100px;
+    object-fit: cover;
+          }
+          body{
+            text-align: center;
+            background-color: brown;
+          }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <img id="header-img" src="https://lh3.googleusercontent.com/p/AF1QipN1qPs-dFf5t7eTsZboXYgEIBDzAvmOT5XKCeL7=s680-w680-h510">
+            <nav>
+                <ul>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#order-form">Order Form</a></li>
+                </ul>
+            </nav>
+        </header>
+<hr>
+        <main>
+            <section>
+                <h2 id="menu">Menu</h2>
+
+                <article>
+                    <img class="img" alt="Chilli Chicken Submarine" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrFB8H52JBAvt639u5lljHFVOjE_dcdfwyI6i2O6vYTQ&s">
+                    <h3>Chilli Chicken Submarine</h3>
+                    <p>Our chilli chicken submarines will leave you wanting more. The perfect mix of <strong>spice and sweet</strong>. For only <em>$4.21</em> or <em>MVR65</em>.</p>
+                </article>
+
+                <article>
+                    <img class="img" alt="Pizza" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5XO5ijTRMgBXtyJBfqOHT103yKhCFfhX9yUR67zVIgw&s">
+                    <h3>Pizza</h3>
+                    <p>Our pizzas are the perfect sharing meal. Offering three <strong>main meat options</strong>: Salty Tuna, Sizzling Chicken and Spicy Beef. For only <em>$6.48</em> or <em>MVR100</em>.</p>
+                </article>
+
+                <article>
+                    <img class="img" alt="Nasi Goreng" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnS4qYKMUqYT0YKvuAfUlyTfP6HiUZT3ESFxmQaYPSRA&s">
+                    <h3>Nasi Goreng</h3>
+                    <p>Nasi Goreng, the <strong>ultimate comfort food</strong>. Whether you had a tough day or just want to enjoy, this is the meal for you. For only <em>$4.21</em> or <em>MVR65</em>.</p>
+                </article>
+            </section>
+<hr>
+            <section>
+                <h2 id="order-form">Place your Order</h2>
+                
+                <p>What would you like to order, and how many?</p>
+                <form>
+                  <label>Chilli Chicken Submarine: <input type="number" min="0" required></label>
+                  <br>
+                  <br>
+                  <label>Nasi Goreng: <input type="number" min="0" required></label>     
+                  <br>
+                  <br>
+                  <label>Pizza: <input type="number" min="0" required></label>
+                  <p>What flavor would you like?</p>
+                  <label>Chicken<input type="radio" name="pizza-flavor" value="Chicken"></label>
+                  <br>
+                  <label>Beef<input type="radio" name="pizza-flavor" value="Beef"></label>
+                  <p>What add-ons would you like?</p>
+                  <label>Cheese<input type="checkbox" name="add-ons"></label>
+                  <label>Olives<input type="checkbox" name="add-ons"></label>
+                  <label>Onions<input type="checkbox" name="add-ons"></label>
+                  <br>
+                  <br>
+                  <label>Additional Requests: <textarea placeholder="Additional requests.."></textarea></label>
+                  <br>
+                  <br>
+                  <label>That's all? Then <input type="submit" value="Go To Checkout"></label>
+                </form>
+            </section>
+        </main>
+<br>
+<hr>
+
+        <footer>
+          <p>Made with love by @ahphaan</p>
+        </footer>
+    </body>
+</html>
